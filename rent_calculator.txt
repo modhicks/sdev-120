@@ -1,0 +1,23 @@
+//Pseudocode for rent_calculator.py
+//Author: Moniquia Hicks
+//Date: 1/25/2025
+//Program: rent_calculator
+//Version: 1.0
+
+//this program calculates your daily rent cost
+
+//initialization
+daysPerMonth = 30
+monthlyRent = 360
+dailyRent = 12
+
+//get data
+monthlyRent = input ("Please enter your monthly rent: ")
+daysPerMonth = input ("Please enter the number of days in the month: ")
+
+//process data
+dailyRent = monthlyRent / daysPerMonth
+
+//output information
+print ("Your monthly rent is: $ ")
+print ("In a " "-day month, your daily rent would be: $ ")
