@@ -1,0 +1,24 @@
+//Pseudocode for mpg_calculator.py
+//Author: Moniquia Hicks
+//Date: 1/25/2025
+//Program: mpg_calculator
+//Version: 1.0
+
+//this program calculates your total MPG
+
+//initialization
+gallonsOfGas = 12.0
+milesDriven = 300.0
+milesPerGallon = 25.0
+
+//get data
+gallonsOfGas = input ("Please enter the amount of gallons used:")
+milesDriven = input ("Please enter the number of miles driven:")
+
+//process data
+milesPerGallon = milesDriven / gallonsOfGas
+
+//output information
+print ("your total miles driven: ")
+print ("Gallons of gas used: ")
+print ("Your total MPG: ")
